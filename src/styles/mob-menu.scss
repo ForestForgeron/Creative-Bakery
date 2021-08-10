@@ -10,7 +10,7 @@
     align-items: center;
 
     margin-bottom: 122px;
-    margin-left: 50px;
+    margin-left: 3.5vw;
   }
 
   &__phone {
@@ -64,7 +64,20 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .mob-menu__phone {
-    font-size: 12px;
+  .mob-menu {
+    &__phone {
+      font-size: 12px;
+    }
   }
+
+}
+
+@media screen and (min-width: 1750px) {
+  .mob-menu {
+    &__contacts {
+      position: absolute;
+      right: 5vw;
+    }
+  }
+
 }
